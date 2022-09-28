@@ -1,6 +1,6 @@
 import tkinter as tk 
 import sqlite3 as sq
-#import Classes as cl
+import Classes #import Pessoa as p
 # tkinter será utilizado para formar a interface gráfica do projeto.
 
 
@@ -23,15 +23,31 @@ import sqlite3 as sq
 #connect.close()
 
 def cadastrarPaciente():
-    #cl.cadastrarDados()
+    #p.cadastrarDados()
     pass
 
 def exportarDados():
-    #cl.obterDados()
+    #p.obterDados()
+    pass
+
+def apresentarLog():
     pass
 
 window = tk.Tk()
 window.title('Ferramenta de Cadastro')
+
+"""
+    Criar botões para decidir qual caminho seguir (Decidir qual tipo de usuário está utilizando o programa. Perguntar cpf?); procurar na base de dados qual tipo de usuário, caso
+    inexistente, apresentar criar perfil. Se cpf tem CRM, apresentar interface médico. Caso cpf tenha COREN, apresentar interface enfermeira. Criar perfil ADMIN para secretário.
+    LEMBRANDO: 
+    Medico: internar, liberar, diagnosticar
+    Enfermeiro: cadastrarPaciente, gerarRelatorio
+    Secretário: cadastrarFuncionario
+    
+"""
+
+# IMPORTANTE: a apresentação atual não é funcional, serve apenas como MVP do projeto. Outras funcionalidades DEVEM ser implementadas.
+
 
 #Labels
 label_nomeComp = tk.Label(window, text = 'Nome Completo:')
@@ -78,6 +94,9 @@ button_cadastrar.grid(row=6, column=0, padx=10, pady=10, columnspan=2, ipadx=70)
 
 button_exportar = tk.Button(window, text = 'Exportar Dados', command = exportarDados)
 button_exportar.grid(row=7, column=0, padx=10, pady=10, columnspan=2, ipadx=70)
+
+button_apresentarLog = tk.Button(window, text = 'Apresentar LOG', command = apresentarLog)
+button_apresentarLog.grid(row=8, column=0, padx=10, pady=10, columnspan=2, ipadx=70)
 
 
 window.mainloop()

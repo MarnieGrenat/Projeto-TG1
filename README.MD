@@ -127,6 +127,20 @@ desenvolvido uma aplicação (main) em Python que utilize esse pacote.
 
 # Desenvolvimento do Projeto:
 
-    
-    
+## Interface Gráfica
+**Author:** Gabriela Dellamora paim
+**Version:** 28.09.22
+
+O Objetivo da interface gráfica é apresentar de uma forma instintiva e fácil de utilizar (para o usuário) todo nosso programa.
+Inicialmente, o objetivo é perguntar que tipo de usuário esta utilizando o cadastro. OPÇÕES: 
+* CADASTRAR PACIENTE
+    * ADD ATRIBUTOS
+* CADASTRAR FUNCIONÁRIOS
+    * Médico
+        * CRM
+    * Enfermeiro
+        * COREN
+    * Secretário
+* EXPORTAR DADOS
+* APRESENTAR LOG
     
