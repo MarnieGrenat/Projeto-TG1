@@ -108,7 +108,7 @@ desenvolvido uma aplicação (main) em Python que utilize esse pacote.
     * **CPF, COREM, CRM, ESTADO CIVIL E DATA DE NASCIMENTO**
 11. ## Especificações e requisitos:
     * A aplicação deve receber como argumento uma lista de arquivos texto (.txt), onde cada arquivo representa um dia de funcionamento da clínica, contendo uma sequência de ações e operações que devem ser feitas pela aplicação.
-    * A aplicação não pode parar caso receber operações inválidas ou não permitidas. Os erros devem ser armazenaods em um arquivo de log.
+    * A aplicação não pode parar caso receber operações inválidas ou não permitidas. Os erros devem ser armazenados em um arquivo de log.
  ## Entrega:
  * Entregar por meio de um *pull request* no GitHub:
     * **Clinica**: Diretório do pacote desenvolvido (clinicaSys).
@@ -127,6 +127,20 @@ desenvolvido uma aplicação (main) em Python que utilize esse pacote.
 
 # Desenvolvimento do Projeto:
 
-    
-    
+## Interface Gráfica
+**Author:** Gabriela Dellamora paim
+**Version:** 28.09.22
+
+O Objetivo da interface gráfica é apresentar de uma forma instintiva e fácil de utilizar (para o usuário) todo nosso programa.
+Inicialmente, o objetivo é perguntar que tipo de usuário esta utilizando o cadastro. OPÇÕES: 
+* CADASTRAR PACIENTE
+    * ADD ATRIBUTOS
+* CADASTRAR FUNCIONÁRIOS
+    * Médico
+        * CRM
+    * Enfermeiro
+        * COREN
+    * Secretário
+* EXPORTAR DADOS
+* APRESENTAR LOG
     

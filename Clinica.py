@@ -20,8 +20,6 @@ você está para atuar no desenvolvimento deste projeto."""
 ##Deve-se criar arquivos para armazenamento de dados. Inicialmente estamos utilizando arquivo_teste.
 
 
-
-
 #CLASSES
 from abc import ABC, abstractmethod
 
@@ -50,7 +48,7 @@ class Pessoa(ABC):
 #Funções: internar, liberar e diagnosticar
 class Medico(Pessoa):
     """Subclasse de Pessoa | possui atributo CRM. |  métodos: a internar, liberar e diagnosticar"""
-    __listaCRM = listaM[]
+    #__listaCRM = listaM[]
     def __init__(self, nomeComp, cpf, dataNasc, estadoC, crm):
         Pessoa.__init__(self,nomeComp,cpf,dataNasc,estadoC)
         
@@ -60,7 +58,7 @@ class Medico(Pessoa):
 #Funcões: cadastrarPaciente e gerarRelatorio
 class Enfermeiro(Pessoa):
     """Subclasse de Pessoa | possui atibuto COREN | métodos: cadastrarPaciente e gerarRelatorio"""
-    __listaCOREN = listaE[]
+    #__listaCOREN = listaE[]
     def __init__(self, nomeComp, cpf, dataNasc, estadoC, coren):
         Pessoa.__init__(self, nomeComp, cpf, dataNasc, estadoC)
 
